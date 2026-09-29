@@ -1,0 +1,21 @@
+export const RESPONSE_MESSAGES = {
+  REVIEW: {
+    INVALID_RATING: "Rating must be between 1 and 5",
+    ALREADY_REVIEWED: "You already reviewed this product",
+    CREATED: "Review added successfully",
+    FETCHED: "Reviews fetched successfully",
+    UPDATED: "Review updated successfully",
+    DELETED: "Review deleted successfully",
+    NOT_FOUND: "Review not found",
+    FETCH_FAILED: "Failed to fetch reviews",
+    CREATE_FAILED: "Failed to add review",
+    UPDATE_FAILED: "Failed to update review",
+    DELETE_FAILED: "Failed to delete review",
+    REQUIRED_FIELDS: "userId, productId and rating are required",
+    COMMENT_ONLY_SPACES: "Comment cannot contain only spaces",
+    COMMENT_TOO_SHORT: "Comment must be at least 3 characters long",
+    COMMENT_TOO_LONG: "Comment must not exceed 500 characters",
+    INVALID_PRODUCT_ID: "productId must be a valid positive number",
+    INVALID_REVIEW_ID: "reviewId must be a valid positive number",
+  },
+};
